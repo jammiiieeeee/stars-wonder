@@ -1,0 +1,16 @@
+{
+  "name": "stars-wonder",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A living star assembled from glowing particles.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "three": "^0.187.0"
+  },
+  "engines": {
+    "node": ">=20.11"
+  }
+}

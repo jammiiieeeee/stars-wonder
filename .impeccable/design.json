@@ -1,0 +1,425 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-16T08:27:15.904Z",
+  "title": "Design System: Stars Wonder",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#070709",
+        "tonalRamp": [
+          "#070709",
+          "#121216",
+          "#1d1d23",
+          "#28282f",
+          "#33333c",
+          "#3e3e49",
+          "#4a4a56",
+          "#565663"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Ivory Paper",
+        "canonical": "#efe4d2",
+        "tonalRamp": [
+          "#1a1713",
+          "#333029",
+          "#4d483e",
+          "#666052",
+          "#807867",
+          "#998f7c",
+          "#b3a791",
+          "#efe4d2"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Stone",
+        "canonical": "#b3a591",
+        "tonalRamp": [
+          "#15120e",
+          "#2a251d",
+          "#40382c",
+          "#554b3b",
+          "#6b5e4a",
+          "#807159",
+          "#9a8a70",
+          "#b3a591"
+        ]
+      },
+      "brass": {
+        "role": "primary",
+        "displayName": "Instrument Brass",
+        "canonical": "#c19a69",
+        "tonalRamp": [
+          "#1a140c",
+          "#332616",
+          "#4d3820",
+          "#66492b",
+          "#805b36",
+          "#997041",
+          "#b38951",
+          "#cda77a"
+        ]
+      },
+      "amber": {
+        "role": "primary",
+        "displayName": "Amber Attention",
+        "canonical": "#ffcf94",
+        "tonalRamp": [
+          "#2a1c0e",
+          "#55371b",
+          "#805328",
+          "#aa6e35",
+          "#d58a42",
+          "#ffa54f",
+          "#ffbd72",
+          "#ffd9a8"
+        ]
+      },
+      "ember": {
+        "role": "secondary",
+        "displayName": "Released Ember",
+        "canonical": "#ff8a45",
+        "tonalRamp": [
+          "#2a1106",
+          "#55220c",
+          "#802f12",
+          "#aa3d18",
+          "#d54a1e",
+          "#ff5a24",
+          "#ff7a45",
+          "#ffb08a"
+        ]
+      },
+      "champagne": {
+        "role": "primary",
+        "displayName": "Champagne Light",
+        "canonical": "#ffe3c6",
+        "tonalRamp": [
+          "#2a2118",
+          "#553f2e",
+          "#805c45",
+          "#aa7a5b",
+          "#d59872",
+          "#ffb68a",
+          "#ffcdaa",
+          "#ffe3c6"
+        ]
+      },
+      "ink-raised": {
+        "role": "neutral",
+        "displayName": "Ink Raised",
+        "canonical": "#0d0a0b",
+        "tonalRamp": [
+          "#0d0a0b",
+          "#191416",
+          "#251e21",
+          "#31282c",
+          "#3d3237",
+          "#493c42",
+          "#55464d",
+          "#615058"
+        ]
+      },
+      "faint": {
+        "role": "neutral",
+        "displayName": "Faint Brass",
+        "canonical": "#8c7f6c",
+        "tonalRamp": [
+          "#15120e",
+          "#2a251d",
+          "#40382c",
+          "#554b3b",
+          "#6b5e4a",
+          "#807159",
+          "#8c7f6c",
+          "#a89b88"
+        ]
+      },
+      "brass-hair": {
+        "role": "neutral",
+        "displayName": "Brass Hairline",
+        "canonical": "rgba(193, 154, 105, 0.24)"
+      },
+      "particle-core": {
+        "role": "primary",
+        "displayName": "Particle Core",
+        "canonical": "#fff4de",
+        "tonalRamp": [
+          "#2a2418",
+          "#55482f",
+          "#806c46",
+          "#aa905d",
+          "#d5b474",
+          "#ffd88b",
+          "#ffe9b8",
+          "#fff4de"
+        ]
+      },
+      "particle-gold": {
+        "role": "primary",
+        "displayName": "Particle Gold",
+        "canonical": "#ffdfb2",
+        "tonalRamp": [
+          "#2a2114",
+          "#554228",
+          "#80633c",
+          "#aa8450",
+          "#d5a564",
+          "#ffc678",
+          "#ffd39a",
+          "#ffdfb2"
+        ]
+      },
+      "particle-amber": {
+        "role": "primary",
+        "displayName": "Particle Amber",
+        "canonical": "#ffbb7a",
+        "tonalRamp": [
+          "#2a1a0d",
+          "#553419",
+          "#804e25",
+          "#aa6831",
+          "#d5823d",
+          "#ff9c49",
+          "#ffab64",
+          "#ffbb7a"
+        ]
+      },
+      "brass-deep": {
+        "role": "primary",
+        "displayName": "Brass Deep",
+        "canonical": "#966c36",
+        "tonalRamp": [
+          "#161007",
+          "#2c200e",
+          "#423015",
+          "#583f1c",
+          "#6e4f23",
+          "#84602a",
+          "#966c36",
+          "#b08a55"
+        ]
+      },
+      "brass-light": {
+        "role": "primary",
+        "displayName": "Brass Light",
+        "canonical": "#f1d5a8",
+        "tonalRamp": [
+          "#2a2317",
+          "#55462f",
+          "#806947",
+          "#aa8c5f",
+          "#d5af77",
+          "#f1c58f",
+          "#f1d5a8",
+          "#f7e3c6"
+        ]
+      },
+      "brass-edge": {
+        "role": "neutral",
+        "displayName": "Brass Edge",
+        "canonical": "rgba(255, 226, 188, 0.32)"
+      },
+      "brass-edge-hover": {
+        "role": "neutral",
+        "displayName": "Brass Edge Hover",
+        "canonical": "rgba(255, 226, 188, 0.5)"
+      },
+      "vignette": {
+        "role": "neutral",
+        "displayName": "Vignette",
+        "canonical": "rgba(0, 0, 0, 0.55)"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The piece's name only; roman with one italic word."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "The promise line and the quiet aside."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Instrument section names, control names, button verbs, states."
+      },
+      "readout": {
+        "displayName": "Readout",
+        "purpose": "Live tabular values."
+      },
+      "value": {
+        "displayName": "Control Value",
+        "purpose": "Live values on the range controls, in tabular numerals."
+      },
+      "aside": {
+        "displayName": "Aside",
+        "purpose": "The quiet placard paragraph on desktop and the mobile lede."
+      },
+      "hint": {
+        "displayName": "Hint",
+        "purpose": "The one instruction line under the field; pointer-aware."
+      },
+      "display-mobile": {
+        "displayName": "Display Mobile",
+        "purpose": "The name on phones and portrait tablets."
+      },
+      "display-compact": {
+        "displayName": "Display Compact",
+        "purpose": "The name on short phone screens."
+      },
+      "display-mid": {
+        "displayName": "Display Mid",
+        "purpose": "The name on short desktop windows."
+      }
+    },
+    "shadows": [
+      {
+        "name": "field-recess",
+        "value": "inset 0 0 74px 28px rgba(0,0,0,0.94), inset 0 0 16px 3px rgba(0,0,0,0.8)",
+        "purpose": "The eyepiece wall; the only inner depth in the page."
+      },
+      {
+        "name": "page-lift",
+        "value": "0 2rem 5rem -3rem rgba(0,0,0,0.9)",
+        "purpose": "Separates the circular field from the dark page without a glow."
+      },
+      {
+        "name": "thumb-seat",
+        "value": "0 1px 2px rgba(0,0,0,0.85), 0 2px 6px rgba(0,0,0,0.45)",
+        "purpose": "Keeps the brass range thumb grounded on its track."
+      }
+    ],
+    "motion": [
+      {
+        "name": "settle",
+        "value": "1100ms cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Interface arrives once, after the star's first frame."
+      },
+      {
+        "name": "state",
+        "value": "300ms ease",
+        "purpose": "Release button color, border, and range fill changes."
+      },
+      {
+        "name": "assembly",
+        "value": "exponential toward target, 4.2/s outward, 2.7/s home",
+        "purpose": "The one authored reform moment; per-particle stagger by longitude."
+      },
+      {
+        "name": "body-pulse",
+        "value": "4.5% brightness at 0.85 rad/s",
+        "purpose": "The living star breathes; reduced-motion holds it still."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tablet-column",
+        "value": "640px"
+      },
+      {
+        "name": "single-column",
+        "value": "896px"
+      },
+      {
+        "name": "short-screen",
+        "value": "704px height"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Eyepiece Field",
+      "kind": "custom",
+      "refersTo": "field",
+      "description": "The circular field that holds the star, with a knurled brass bezel and a deep inner recess.",
+      "html": "<div class=\"ds-field\"><span class=\"ds-field-glow\"></span><span class=\"ds-field-scale\"></span></div>",
+      "css": ".ds-field { position: relative; width: min(70dvh, 48vw, 46rem); aspect-ratio: 1; border-radius: 50%; overflow: hidden; background: radial-gradient(circle at 50% 47%, #151009 0%, #0a0809 52%, #060608 100%); box-shadow: 0 0 0 1px rgba(193,154,105,0.28), 0 0 0 7px rgba(193,154,105,0.045), inset 0 0 74px 28px rgba(0,0,0,0.94), inset 0 0 16px 3px rgba(0,0,0,0.8), 0 2rem 5rem -3rem rgba(0,0,0,0.9); } .ds-field-glow { position: absolute; inset: 24%; border-radius: 50%; background: radial-gradient(circle, #ffe3c6 0%, rgba(255,196,140,0.5) 38%, rgba(255,140,80,0) 72%); } .ds-field-scale { position: absolute; inset: 0; border-radius: 50%; background: repeating-conic-gradient(from -0.25deg, rgba(205,166,116,0.42) 0deg 0.5deg, transparent 0.5deg 6deg); -webkit-mask: radial-gradient(circle closest-side, transparent calc(100% - 12px), #000 calc(100% - 12px) calc(100% - 8px), transparent calc(100% - 8px)); mask: radial-gradient(circle closest-side, transparent calc(100% - 12px), #000 calc(100% - 12px) calc(100% - 8px), transparent calc(100% - 8px)); }"
+    },
+    {
+      "name": "Instrument Readout",
+      "kind": "custom",
+      "refersTo": "field",
+      "description": "Three live measurements in tabular numerals, divided from the header by a hairline.",
+      "html": "<div class=\"ds-readout\"><div><span>Particles</span><b>48,000</b></div><div><span>Approach</span><b>1.00×</b></div><div><span>Field</span><b>36°</b></div></div>",
+      "css": ".ds-readout { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; width: 100%; max-width: 27rem; padding: 15px 0 18px; border-bottom: 1px solid rgba(193,154,105,0.24); } .ds-readout span { display: block; margin-bottom: 6px; font-family: 'Archivo', system-ui, sans-serif; font-size: 11.2px; letter-spacing: 0.16em; text-transform: uppercase; color: #8c7f6c; } .ds-readout b { font-family: 'Archivo', system-ui, sans-serif; font-size: 13.1px; font-weight: 400; color: #efe4d2; font-variant-numeric: tabular-nums; }"
+    },
+    {
+      "name": "Range Control",
+      "kind": "input",
+      "refersTo": "range-thumb",
+      "description": "A fine brass rail with a knurled brass thumb and a tabular value at the right.",
+      "html": "<label class=\"ds-control\"><span>Focus</span><input type=\"range\" min=\"0\" max=\"100\" value=\"68\"><output>68</output></label>",
+      "css": ".ds-control { display: grid; grid-template-columns: 5.6rem 1fr 3.6rem; align-items: center; gap: 13.6px; padding: 7.2px 0 2.4px; border-top: 1px solid rgba(193,154,105,0.24); font-family: 'Archivo', system-ui, sans-serif; } .ds-control > span { font-size: 11.2px; letter-spacing: 0.15em; text-transform: uppercase; color: #b3a591; } .ds-control output { font-size: 12.5px; text-align: right; color: #efe4d2; font-variant-numeric: tabular-nums; } .ds-control input { -webkit-appearance: none; appearance: none; width: 100%; height: 36px; margin: 0; background: transparent; cursor: ew-resize; } .ds-control input::-webkit-slider-runnable-track { height: 1px; background: linear-gradient(to right, #c19a69 0 68%, rgba(193,154,105,0.22) 68% 100%); } .ds-control input::-webkit-slider-thumb { -webkit-appearance: none; width: 16px; height: 16px; margin-top: -8px; border-radius: 50%; border: 1px solid rgba(255,226,188,0.32); background: repeating-conic-gradient(rgba(23,16,9,0.5) 0deg 9deg, rgba(255,220,170,0.4) 9deg 18deg), radial-gradient(circle at 35% 30%, #f1d5a8, #966c36 72%); box-shadow: 0 1px 2px rgba(0,0,0,0.85), 0 2px 6px rgba(0,0,0,0.45); } .ds-control input:focus-visible { outline: 1px solid rgba(255,207,148,0.5); outline-offset: 2px; }"
+    },
+    {
+      "name": "Release Button",
+      "kind": "button",
+      "refersTo": "release-button",
+      "description": "The one verb. It names the next action on the left and the body's state on the right.",
+      "html": "<button class=\"ds-release\" aria-pressed=\"false\"><span>Release</span><span>assembled</span></button>",
+      "css": ".ds-release { display: flex; align-items: center; justify-content: space-between; gap: 16px; width: 100%; max-width: 27rem; min-height: 53.6px; margin-top: 10.4px; padding: 0 16px; border: 1px solid rgba(193,154,105,0.24); border-radius: 0; background: transparent; color: #efe4d2; font-family: 'Archivo', system-ui, sans-serif; cursor: pointer; transition: border-color 300ms, background-color 300ms, color 300ms; } .ds-release span:first-child { font-size: 11.2px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; } .ds-release span:last-child { font-size: 11.2px; letter-spacing: 0.08em; color: #8c7f6c; } .ds-release:hover { border-color: rgba(193,154,105,0.5); background: rgba(193,154,105,0.05); } .ds-release:focus-visible { outline: 1px solid #ffcf94; outline-offset: 3px; } .ds-release[aria-pressed=\"true\"] { color: #ff8a45; border-color: rgba(255,138,69,0.38); } .ds-release[aria-pressed=\"true\"] span:last-child { color: rgba(255,138,69,0.72); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Observatory Eyepiece",
+    "overview": "The page is one turn at a public observatory. The star is not a poster; it is what sits in the eyepiece when the instrument is pointed and the visitor finally holds still. Everything around it belongs to the instrument: a knurled brass bezel, a measured scale, a placard set in two voices, and three controls that a hand would find in the dark.\n\nThe scene is a dark room at night, so the ground is near-black rather than slate. The only strong light is the body itself, a champagne-and-gold particle volume with a cream core and an ember edge. Interface ink is warm ivory, never pure white; brass is the metal, amber is attention, and ember appears only when the body is released. Depth comes from one recessed circular field and hairline rules, not from cards, glass, or elevation.\n\nThe piece is quiet at rest and authored in motion: the body assembles once, breathes, drifts, notices the cursor, and can be let go and called back. Nothing on the page claims a real observation.",
+    "keyCharacteristics": [
+      "A single circular field is the hero; the UI is its collar.",
+      "Champagne light against near-black ink, with brass as the only metal.",
+      "Bodoni Moda display, Archivo instrument voice, tabular numerals.",
+      "Square controls, hairline rules, one circular exception.",
+      "One authored reform moment; the rest is slow drift."
+    ],
+    "rules": [
+      {
+        "name": "The One Light Rule",
+        "body": "The brightest element is always the star. Interface text never exceeds the luminance of the body's midtone, and no chrome gets a glow.",
+        "section": "colors"
+      },
+      {
+        "name": "The Ember Exception Rule",
+        "body": "Ember is spent only on the released state. If it appears anywhere else, the state language collapses.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "Bodoni never sets a control label and Archivo never sets the title. The only crossing is the italic display word, which is a name, not a label.",
+        "section": "typography"
+      },
+      {
+        "name": "The No Glow Chrome Rule",
+        "body": "Emissive bloom belongs to the particles. Chrome gets hairlines and neutral shadows only; a colored halo on a control is a bug.",
+        "section": "elevation"
+      },
+      {
+        "name": "The One Circle Rule",
+        "body": "A second circle anywhere in the chrome competes with the eyepiece. Do not round buttons, inputs, or panels.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Named State Rule",
+        "body": "The button always names the next action (Release / Recollect) and the right side always names the current body (assembled / dispersed). No icon, no ellipsis, no spinner.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Do keep the star the brightest thing; interface luminance stays below its midtone.",
+      "Do use tabular numerals for every live value.",
+      "Do keep functional text at 0.7rem (11.2px) or larger.",
+      "Do keep the field's bezel scale and the instrument's readout honest to real state.",
+      "Do respect prefers-reduced-motion: no intro assembly, no auto-orbit, a quarter of the twinkle."
+    ],
+    "donts": [
+      "Don't put the controls in a card, a glass panel, or a rounded container.",
+      "Don't add a colored glow to a control, a border, or text.",
+      "Don't use ember outside the released state.",
+      "Don't use a second circular container or pill; the eyepiece is the only circle.",
+      "Don't claim a real object, coordinates, or data; the note says the field is composed."
+    ]
+  }
+}

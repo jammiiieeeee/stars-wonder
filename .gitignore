@@ -1,0 +1,6 @@
+node_modules/
+.impeccable/review/
+.impeccable/questions/
+*.log
+.DS_Store
+Thumbs.db

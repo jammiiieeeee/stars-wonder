@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stars Wonder — a living star</title>
+    <meta
+      name="description"
+      content="A living star assembled from glowing particles. Orbit it, approach it, and let it go."
+    />
+    <meta name="theme-color" content="#070709" />
+    <meta name="color-scheme" content="dark" />
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href="./assets/fonts/BodoniModa.woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href="./assets/fonts/BodoniModa-Italic.woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href="./assets/fonts/Archivo.woff2"
+      crossorigin
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='6.5' fill='%23ffcf94'/%3E%3Ccircle cx='16' cy='16' r='11.5' fill='none' stroke='%23c19a69' stroke-opacity='.4'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="./assets/fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "./node_modules/three/build/three.module.js",
+          "three/addons/": "./node_modules/three/examples/jsm/"
+        }
+      }
+    </script>
+    <script type="module" src="./main.js"></script>
+  </head>
+  <body>
+    <main class="page">
+      <header class="masthead">
+        <h1 class="title">Stars <em>Wonder</em></h1>
+        <p class="lede">A living star, assembled from light.</p>
+        <p class="aside">
+          Every point is placed by arithmetic and lit by your attention.
+        </p>
+        <p class="sr-only">
+          An interactive particle star. Drag across the field to orbit it, scroll
+          to move closer, and use the instrument controls below to change its
+          focus, drift, or scatter it.
+        </p>
+      </header>
+
+      <section
+        class="field"
+        id="field"
+        tabindex="0"
+        role="group"
+        aria-label="The star"
+        aria-describedby="field-help"
+      >
+        <canvas id="scene" aria-hidden="true"></canvas>
+        <span class="field-scale" aria-hidden="true"></span>
+        <span class="field-rim" aria-hidden="true"></span>
+      </section>
+      <p class="sr-only" id="field-help">
+        Use the arrow keys to orbit the star, plus and minus to approach, and
+        Space to release or recollect the particles.
+      </p>
+
+      <section class="instrument" aria-labelledby="instrument-title">
+        <div class="instrument-head">
+          <h2 class="instrument-title" id="instrument-title">Instrument</h2>
+          <p class="instrument-meta">No. 01</p>
+        </div>
+
+        <dl class="readout">
+          <div><dt>Particles</dt><dd data-readout="particles">—</dd></div>
+          <div><dt>Approach</dt><dd data-readout="approach">1.00×</dd></div>
+          <div><dt>Field</dt><dd>36°</dd></div>
+        </dl>
+
+        <div class="control">
+          <label for="focus">Focus</label>
+          <input id="focus" name="focus" type="range" min="0" max="100" value="68" />
+          <output for="focus" data-value="focus">68</output>
+        </div>
+
+        <div class="control">
+          <label for="tracking">Tracking</label>
+          <input id="tracking" name="tracking" type="range" min="0" max="100" value="34" />
+          <output for="tracking" data-value="tracking">0.041°/s</output>
+        </div>
+
+        <button
+          class="release"
+          id="release"
+          type="button"
+          aria-pressed="false"
+          aria-keyshortcuts="Space"
+        >
+          <span class="release-label">Release</span>
+          <span class="release-state">assembled</span>
+        </button>
+
+        <p class="note">A composition in light, not a recorded sky.</p>
+      </section>
+
+        <p class="hint">
+          <span class="hint-fine">Drag to orbit · Scroll to approach · Space to release</span>
+          <span class="hint-touch">Drag to orbit · Pinch to approach</span>
+        </p>
+    </main>
+    <noscript>
+      <p class="fallback">This field is drawn with WebGL and needs JavaScript enabled.</p>
+    </noscript>
+  </body>
+</html>
